@@ -174,7 +174,7 @@ footer {
 }
 
 /* Responsividade */
-@media (max-width: 1080px) {
+@media (max-width: 728px) {
     
     .logo h1 {
         font-size: 18px;
