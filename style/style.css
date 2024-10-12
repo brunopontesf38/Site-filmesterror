@@ -63,7 +63,7 @@ nav ul li a:hover {
 .banner {
     position: relative;
     height: 60vh;
-    background: url('imagem/maoparede.jpg')  center center/cover no-repeat;
+    background: url('/imagem/maoparede.jpg')  center center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
