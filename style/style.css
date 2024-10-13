@@ -226,27 +226,11 @@ footer {
     }
 
     /* Ajustes no menu */
-    nav ul {
-        flex-direction: column;
-        background-color: #1e1e1e;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        width: 100%;
-        padding: 10px;
-    }
+    
 
-    nav ul li {
-        margin: 5px 0;
-        text-align: center;
-    }
+   
 
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-        font-size: 24px;
-        color: #ffffff;
-    }
+    
 
     /* Ajuste da grade de filmes */
     .filme-grid {
