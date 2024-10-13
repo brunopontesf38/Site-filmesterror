@@ -214,6 +214,90 @@ footer {
     }
 }
 
+/* Responsividade para Samsung A11 (resolução 720x1560) */
+@media screen and (max-width: 720px) {
+    /* Ajustes gerais */
+    body {
+        font-size: 14px;
+    }
+
+    /* Ajuste do banner */
+    .banner {
+        height: 50vh;
+    }
+
+    .banner-content h2 {
+        font-size: 28px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    /* Ajustes no menu */
+    nav ul {
+        flex-direction: column;
+        background-color: #1e1e1e;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: #ffffff;
+    }
+
+    /* Ajuste da grade de filmes */
+    .filme-grid {
+        grid-template-columns: 1fr; /* Uma coluna para melhor visualização em tela pequena */
+    }
+
+    .filme-item {
+        padding: 10px;
+    }
+
+    .filme-item img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .filme-item h3 {
+        font-size: 16px;
+    }
+
+    .filme-item video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Rodapé */
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .social-media a {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .contato p {
+        font-size: 12px;
+    }
+}
+
+
 /* Estilo para botões de menu toggle (opcional para mobile) */
 .menu-toggle {
     display: none;
