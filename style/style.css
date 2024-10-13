@@ -203,7 +203,7 @@ footer {
 
     nav ul.show {
         display: flex;
-    }
+    } 
 
     /* Menu mobile toggle */
     .menu-toggle {
